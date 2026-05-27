@@ -16,7 +16,7 @@ class manager : employee
 {
     public override void bonus()
     {
-        base.bonus();
+        
         Console.WriteLine("manager bonus:80000");
     }
 }
@@ -24,7 +24,7 @@ class manager : employee
     {
         public override void bonus()
         {
-        base.bonus();
+        
         Console.WriteLine("developer bonus:100000");
         }
     }
